@@ -29,6 +29,7 @@ public class Droid {
         cody.performTask("dancing");
         cody.energyReport();
         cody.performTask("Coding");
+          cody.energyReport();
 
     }
 }
