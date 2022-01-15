@@ -13,7 +13,9 @@ public class Droid {
         System.out.println(name + " is performing task: " + task);
         batteryLevel = batteryLevel - 10;
     }
-    public 
+    public void energyReport () {
+        System.out.println(batteryLevel);
+    }
 
     public String toString() {
         return "Hello, I'm the droid: " + name;
@@ -25,6 +27,7 @@ public class Droid {
         Droid cody = new Droid("Cody");
         System.out.println(cody);
         cody.performTask("dancing");
+        cody.energyReport();
 
     }
 }
