@@ -13,7 +13,8 @@ public class Droid {
         System.out.println(name + " is performing task: " + task);
         batteryLevel = batteryLevel - 10;
     }
-    public void energyReport () {
+
+    public void energyReport() {
         System.out.println(batteryLevel);
     }
 
@@ -29,7 +30,7 @@ public class Droid {
         cody.performTask("dancing");
         cody.energyReport();
         cody.performTask("Coding");
-          cody.energyReport();
+        cody.energyReport();
 
     }
 }
