@@ -28,6 +28,7 @@ public class Droid {
         System.out.println(cody);
         cody.performTask("dancing");
         cody.energyReport();
+         cody.performTask("dancing");
 
     }
 }
