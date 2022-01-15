@@ -22,6 +22,7 @@ public class Droid {
 
         Droid cody = new Droid("Cody");
         System.out.println(cody);
+        cody.performTask("dancing");
 
     }
 }
