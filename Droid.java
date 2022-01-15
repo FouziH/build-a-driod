@@ -11,12 +11,13 @@ public class Droid {
 
     public void performTask(String task) {
         System.out.println(name + " is performing task: " + task);
-batteryLevel = batteryLevel - 10;
+        batteryLevel = batteryLevel - 10;
     }
+    public 
 
     public String toString() {
         return "Hello, I'm the droid: " + name;
-        
+
     }
 
     public static void main(String[] args) {
