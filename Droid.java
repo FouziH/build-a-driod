@@ -11,5 +11,7 @@ public class Droid {
 
     public static void main(String[] args) {
 
+        Droid cody = new Droid("Cody");
+
     }
 }
