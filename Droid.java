@@ -6,14 +6,15 @@ public class Droid {
 
          name = droidName;
          batteryLevel = 100;
+    }
 
-    }
-    public String toString() {
-        return "Hello, I'm the droid: " + name;
-    }
-    public void performTask(String task) {
+      public void performTask(String task) {
         System.out.println(name + " is performing task: " + task);
 
+    }
+    
+    public String toString() {
+        return "Hello, I'm the droid: " + name;
     }
 
     public static void main(String[] args) {
