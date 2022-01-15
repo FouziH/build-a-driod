@@ -8,6 +8,9 @@ public class Droid {
          batteryLevel = 100;
 
     }
+    public String toString() {
+        return "Hello, I'm the droid: " + name;
+    }
 
     public static void main(String[] args) {
 
