@@ -2,8 +2,8 @@ public class Droid {
 
     String name;
     int batteryLevel;
-     Droid(String droidName) {
-         
+     public Droid(String droidName) {
+
          name = droidName;
          batteryLevel = 100;
 
